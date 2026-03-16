@@ -39,6 +39,7 @@ This file tracks additions that are not part of OpenClaw defaults.
 - Files:
   - `workflows/morning-brief.md`
   - `templates/morning-brief-template.md`
+  - `examples/example-morning-brief.md`
 
 ### Workflow: Multi-agent handoff / review
 - Type: workflow
@@ -85,6 +86,27 @@ This file tracks additions that are not part of OpenClaw defaults.
 - Files:
   - `workflows/autonomous-project-management.md`
   - `templates/state-yaml-template.yaml`
+
+### Workflow: Goal-driven autonomous tasks
+- Type: workflow
+- Status: applied-staged
+- Risk: medium
+- Why: gives the agent a file-backed daily planning and execution loop with bounded autonomy
+- Files:
+  - `workflows/goal-driven-autonomous-tasks.md`
+  - `templates/autonomous-goals-template.md`
+  - `memory/tasks-log.md` (recommended runtime path)
+
+### Workflow: Overnight mini-app builder
+- Type: workflow
+- Status: opt-in-only
+- Risk: medium
+- Why: creates a constrained lane for small overnight prototypes tied to real goals
+- Files:
+  - `workflows/overnight-mini-app-builder.md`
+  - `templates/overnight-build-note-template.md`
+  - `examples/example-overnight-build-note.md`
+  - `projects/overnight/YYYY-MM-DD-slug/` (recommended runtime path)
 
 ### Workflow: Meeting notes & action items
 - Type: workflow
