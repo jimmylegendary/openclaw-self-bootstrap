@@ -17,6 +17,7 @@ This repo is optimized for OpenClaw agents to read and apply, not just for human
 - a first-pass morning-brief workflow
 - a reusable multi-agent handoff/review pattern
 - source notes from community awesome lists
+- a small vetted record of which third-party skills were actually reviewed, installed, tested, or deferred on a real machine
 
 ## Intended use
 

@@ -164,6 +164,32 @@ This file tracks additions that are not part of OpenClaw defaults.
 - Why: periodic cleanup and memory distillation may be helpful later
 - Risk: medium
 
+## Reviewed but deferred
+
+### session-wrap-up
+- Type: third-party skill
+- Status: deferred
+- Why: ClawHub blocked install in non-interactive mode because VirusTotal flagged it as suspicious
+- Risk: unknown-until-reviewed
+
+### continuity-framework
+- Type: third-party skill
+- Status: deferred
+- Why: interesting local-first idea, but current implementation is a prototype with manual reflection flow and default paths that do not match this workspace
+- Risk: medium
+
+### ops-hygiene
+- Type: third-party skill
+- Status: deferred
+- Why: useful ideas, but current scripts assume extra local services / files (`prompt-guard`, Reef on port 3030, AgentMail secrets in `.secrets`) and are not portable enough for this machine as-is
+- Risk: medium
+
+### heartbeats
+- Type: third-party skill
+- Status: deferred
+- Why: ClawHub blocked install in non-interactive mode because VirusTotal flagged it as suspicious
+- Risk: unknown-until-reviewed
+
 ## Rule
 
 Do not treat a candidate as installed just because it appears in this registry.
