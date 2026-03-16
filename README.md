@@ -26,6 +26,18 @@ This repo is optimized for OpenClaw agents to read and apply, not just for human
 4. Apply workflows in `APPLY_ORDER.md`.
 5. Use `skills/registry.md` and `sources/` before adding new skills.
 
+## Daily loop added by this repo
+
+The autonomy-oriented workflows are meant to form one file-backed loop:
+
+1. plan from `ops/autonomous-goals.md`
+2. execute a short daily shortlist
+3. optionally build one overnight artifact in `projects/overnight/YYYY-MM-DD-slug/`
+4. surface outcomes in the next morning brief or project-state update
+5. append completed work to `memory/tasks-log.md`
+
+Templates and examples for this loop live in `templates/` and `examples/`.
+
 ## Design goal
 
 Make it easy for an OpenClaw agent to bootstrap itself safely and consistently.

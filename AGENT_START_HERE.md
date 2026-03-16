@@ -61,5 +61,4 @@ The agent can safely:
 - close out sessions cleanly
 - delegate work with structured handoffs
 - introduce new automation in a staged way
-egate work with structured handoffs
-- introduce new automation in a staged way
+- run a clear daily loop from planning to execution to overnight follow-up to next-morning surfacing

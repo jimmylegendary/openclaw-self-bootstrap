@@ -32,7 +32,7 @@ Create a safe lane for the agent to spend off-hours building small prototype app
    - testable locally
    - low-risk if incomplete
 3. Write a short build brief before implementation.
-4. Build in a dedicated workspace path such as `projects/overnight/<date>-<slug>/`.
+4. Build in a dedicated workspace path such as `projects/overnight/YYYY-MM-DD-slug/`.
 5. Prefer local prototypes, internal tools, dashboards, scripts, or draft SaaS MVPs.
 6. Leave a concise handoff note with:
    - what it does
@@ -40,6 +40,28 @@ Create a safe lane for the agent to spend off-hours building small prototype app
    - how to run/test it
    - what is unfinished
 7. Surface the result in the next morning brief or project state update.
+
+## Recommended artifact layout
+
+Inside each overnight build folder, keep the handoff obvious:
+
+- `projects/overnight/YYYY-MM-DD-slug/README.md` or app files
+- `projects/overnight/YYYY-MM-DD-slug/BUILD_NOTE.md`
+- optional `projects/overnight/YYYY-MM-DD-slug/screenshots/`
+- optional `projects/overnight/YYYY-MM-DD-slug/tests/`
+
+Use `templates/task-brief-template.md` for the pre-build brief and `templates/overnight-build-note-template.md` for the handoff note.
+
+## Selection heuristics
+
+Good overnight candidates usually:
+
+- reduce friction on a real recurring task
+- turn an existing manual workflow into a local prototype
+- produce something the user can inspect in under 10 minutes next morning
+- have a clear next step if the prototype lands well
+
+Avoid candidates that mostly generate novelty without changing the user's actual leverage.
 
 ## Safety rules
 
@@ -55,12 +77,14 @@ Create a safe lane for the agent to spend off-hours building small prototype app
 - the prototype is tied to a real user goal
 - a human can inspect and test it the next day
 - unfinished work is clearly labeled instead of hidden
+- the next morning brief can link to the exact build folder and note
 
 ## Risks / gotchas
 
 - surprise is good; wasted effort is not
 - small, sharp prototypes beat bloated half-products
 - without a clear goal map, surprise builds drift into novelty theater
+- if overnight work is not surfaced clearly the next morning, it may as well not have happened
 
 ## Related files
 
@@ -68,3 +92,5 @@ Create a safe lane for the agent to spend off-hours building small prototype app
 - `workflows/autonomous-project-management.md`
 - `workflows/multi-agent-handoff-review.md`
 - `workflows/morning-brief.md`
+- `templates/overnight-build-note-template.md`
+- `examples/example-overnight-build-note.md`
