@@ -12,6 +12,7 @@ This repo is optimized for OpenClaw agents to read and apply, not just for human
 - a pre-build idea validation gate
 - second-brain and personal knowledge-base patterns
 - autonomous project-management and meeting-notes workflows
+- goal-driven autonomous task planning and an overnight mini-app builder lane
 - specialized-team, arXiv reading, and LaTeX writing extensions
 - a first-pass morning-brief workflow
 - a reusable multi-agent handoff/review pattern

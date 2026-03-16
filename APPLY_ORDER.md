@@ -19,24 +19,26 @@ Apply this repository in the following order.
 7. Apply `workflows/second-brain.md`
 8. Apply `workflows/personal-knowledge-base.md`
 9. Apply `workflows/autonomous-project-management.md`
-10. Apply `workflows/meeting-notes-action-items.md`
+10. Apply `workflows/goal-driven-autonomous-tasks.md`
+11. Apply `workflows/overnight-mini-app-builder.md`
+12. Apply `workflows/meeting-notes-action-items.md`
 
 ## Phase 4 — Specialized extensions
 
-11. Apply `workflows/multi-agent-specialized-team.md`
-12. Apply `workflows/arxiv-paper-reader.md`
-13. Apply `workflows/latex-paper-writing.md`
+13. Apply `workflows/multi-agent-specialized-team.md`
+14. Apply `workflows/arxiv-paper-reader.md`
+15. Apply `workflows/latex-paper-writing.md`
 
 ## Phase 5 — Daily operations
 
-14. Apply `workflows/morning-brief.md` in manual mode first
-15. Only after a successful manual trial, add scheduling
+16. Apply `workflows/morning-brief.md` in manual mode first
+17. Only after a successful manual trial, add scheduling
 
 ## Phase 6 — Skill adoption
 
-16. Review `skills/registry.md`
-17. Read `sources/awesome-openclaw-skills.md` and `sources/awesome-openclaw-usecases.md`
-18. Vet candidate skills before installation
+18. Review `skills/registry.md`
+19. Read `sources/awesome-openclaw-skills.md` and `sources/awesome-openclaw-usecases.md`
+20. Vet candidate skills before installation
 
 ## Rule
 

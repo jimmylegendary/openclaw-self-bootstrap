@@ -21,10 +21,12 @@ Apply the workflows in this repository to improve safety, continuity, delegation
 3. `workflows/project-state-tracking.md`
 4. `workflows/session-wrap-up.md`
 5. `workflows/multi-agent-handoff-review.md`
-6. `workflows/morning-brief.md`
-7. `skills/registry.md`
-8. `sources/awesome-openclaw-skills.md`
-9. `sources/awesome-openclaw-usecases.md`
+6. `workflows/goal-driven-autonomous-tasks.md`
+7. `workflows/overnight-mini-app-builder.md`
+8. `workflows/morning-brief.md`
+9. `skills/registry.md`
+10. `sources/awesome-openclaw-skills.md`
+11. `sources/awesome-openclaw-usecases.md`
 
 ## What can be applied immediately
 
@@ -36,6 +38,8 @@ Apply the workflows in this repository to improve safety, continuity, delegation
 - second-brain capture pattern
 - personal knowledge-base pattern
 - autonomous project-management pattern
+- goal-driven autonomous task pattern
+- overnight mini-app builder lane
 - meeting-notes extraction pattern
 - specialized-team pattern
 - arXiv paper-reading pattern
