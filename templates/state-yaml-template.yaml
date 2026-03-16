@@ -1,0 +1,11 @@
+project: example-project
+updated: 2026-03-17T00:00:00Z
+
+tasks:
+  - id: example-task
+    status: inbox
+    owner: unassigned
+    notes: ""
+
+next_actions:
+  - "Define the first real task"

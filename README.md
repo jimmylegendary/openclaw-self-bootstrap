@@ -9,6 +9,10 @@ This repo is optimized for OpenClaw agents to read and apply, not just for human
 - operating workflows that are not part of OpenClaw defaults
 - safe skill adoption rules
 - project-state and wrap-up patterns
+- a pre-build idea validation gate
+- second-brain and personal knowledge-base patterns
+- autonomous project-management and meeting-notes workflows
+- specialized-team, arXiv reading, and LaTeX writing extensions
 - a first-pass morning-brief workflow
 - a reusable multi-agent handoff/review pattern
 - source notes from community awesome lists

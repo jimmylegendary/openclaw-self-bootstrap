@@ -32,6 +32,14 @@ Apply the workflows in this repository to improve safety, continuity, delegation
 - project-state tracking pattern
 - session wrap-up pattern
 - multi-agent handoff/review pattern
+- pre-build idea validation gate
+- second-brain capture pattern
+- personal knowledge-base pattern
+- autonomous project-management pattern
+- meeting-notes extraction pattern
+- specialized-team pattern
+- arXiv paper-reading pattern
+- LaTeX paper-writing pattern
 - manual morning-brief draft
 
 ## What should wait for human confirmation
@@ -48,4 +56,6 @@ The agent can safely:
 - preserve project state
 - close out sessions cleanly
 - delegate work with structured handoffs
+- introduce new automation in a staged way
+egate work with structured handoffs
 - introduce new automation in a staged way
