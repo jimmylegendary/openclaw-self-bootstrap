@@ -48,3 +48,6 @@ Make it easy for an OpenClaw agent to bootstrap itself safely and consistently.
 
 Treat this repository as the canonical source-of-truth for bootstrap and operating workflows.
 If a portable bundle is needed later, generate or curate it from here rather than maintaining a second competing repo of overlapping guidance.
+
+Portable/export assets now live under `portable/`.
+Use that subtree as the source for transplanting templates, reusable skills, helper scripts, and MCP examples into another workspace.

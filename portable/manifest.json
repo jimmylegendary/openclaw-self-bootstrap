@@ -1,0 +1,36 @@
+{
+  "name": "openclaw-portable-kit",
+  "version": "0.1.0",
+  "sourceWorkspace": "/home/jimmy/.openclaw/workspace",
+  "createdFromCommit": "21b0ca8",
+  "templates": [
+    "AGENTS.md",
+    "HEARTBEAT.md",
+    "IDENTITY.md",
+    "SOUL.md",
+    "TOOLS.md",
+    "USER.md"
+  ],
+  "skills": [
+    "agent-browser",
+    "agent-team-orchestration",
+    "find-skills",
+    "mcporter",
+    "notion",
+    "proactive-agent",
+    "self-improving-agent",
+    "session-logs",
+    "skill-vetter",
+    "summarize",
+    "tmux"
+  ],
+  "mcpExamples": [
+    "mcp-test-server.py",
+    "test_mcp_server.py"
+  ],
+  "notes": [
+    "Personal memory files and secrets intentionally excluded.",
+    "Quarantine skills intentionally excluded.",
+    "Install with scripts/install.sh <target-workspace>."
+  ]
+}
