@@ -16,6 +16,7 @@ This repo is optimized for OpenClaw agents to read and apply, not just for human
 - specialized-team, arXiv reading, and LaTeX writing extensions
 - a first-pass morning-brief workflow
 - a reusable multi-agent handoff/review pattern
+- a WebChat side-session workflow for opening a fresh session without killing the current one
 - source notes from community awesome lists
 - a small vetted record of which third-party skills were actually reviewed, installed, tested, or deferred on a real machine
 
@@ -42,3 +43,8 @@ Templates and examples for this loop live in `templates/` and `examples/`.
 ## Design goal
 
 Make it easy for an OpenClaw agent to bootstrap itself safely and consistently.
+
+## Repository position
+
+Treat this repository as the canonical source-of-truth for bootstrap and operating workflows.
+If a portable bundle is needed later, generate or curate it from here rather than maintaining a second competing repo of overlapping guidance.

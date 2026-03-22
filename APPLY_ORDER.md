@@ -7,11 +7,12 @@ Apply this repository in the following order.
 1. Apply `workflows/skill-vetting.md`
 2. Apply `workflows/project-state-tracking.md`
 3. Apply `workflows/session-wrap-up.md`
+4. Apply `workflows/webchat-side-session.md`
 
 ## Phase 2 — Delegation quality
 
-4. Apply `workflows/multi-agent-handoff-review.md`
-5. Review `examples/handoff-test/`
+5. Apply `workflows/multi-agent-handoff-review.md`
+6. Review `examples/handoff-test/`
 
 ## Phase 3 — Build / research gates and knowledge systems
 

@@ -20,13 +20,14 @@ Apply the workflows in this repository to improve safety, continuity, delegation
 2. `workflows/skill-vetting.md`
 3. `workflows/project-state-tracking.md`
 4. `workflows/session-wrap-up.md`
-5. `workflows/multi-agent-handoff-review.md`
-6. `workflows/goal-driven-autonomous-tasks.md`
-7. `workflows/overnight-mini-app-builder.md`
-8. `workflows/morning-brief.md`
-9. `skills/registry.md`
-10. `sources/awesome-openclaw-skills.md`
-11. `sources/awesome-openclaw-usecases.md`
+5. `workflows/webchat-side-session.md`
+6. `workflows/multi-agent-handoff-review.md`
+7. `workflows/goal-driven-autonomous-tasks.md`
+8. `workflows/overnight-mini-app-builder.md`
+9. `workflows/morning-brief.md`
+10. `skills/registry.md`
+11. `sources/awesome-openclaw-skills.md`
+12. `sources/awesome-openclaw-usecases.md`
 
 ## What can be applied immediately
 
@@ -62,3 +63,5 @@ The agent can safely:
 - delegate work with structured handoffs
 - introduce new automation in a staged way
 - run a clear daily loop from planning to execution to overnight follow-up to next-morning surfacing
+
+ecution to overnight follow-up to next-morning surfacing

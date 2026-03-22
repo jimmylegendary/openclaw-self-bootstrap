@@ -62,3 +62,29 @@ Role clarity beats premature complexity.
 
 ### Follow-up
 Start with two roles, then expand only if bottlenecks justify it.
+
+---
+
+## 2026-03-22
+
+### Decision
+Use `openclaw-self-bootstrap` as the canonical source-of-truth repo and fold `openclaw-portable-kit` into it conceptually.
+
+### Why
+`openclaw-self-bootstrap` already has the stronger architectural center: agent-readable operating workflows, apply order, and durable decisions. `openclaw-portable-kit` is better understood as a distribution/export layer, not the place where new operating knowledge should originate.
+
+### Follow-up
+- Add new workflow knowledge to `openclaw-self-bootstrap` first.
+- Treat any future portable bundle as a generated or curated export from `openclaw-self-bootstrap`.
+- Avoid maintaining two independent repos with overlapping operational guidance.
+
+---
+
+### Decision
+Document alternate WebChat session creation as a workflow, not as a skill.
+
+### Why
+The mechanism is a stable operator procedure (`sessions.patch` + `chat.inject` + optional verification), so markdown documentation is enough for both humans and agents. A skill may still be added later for convenience, but the knowledge itself is procedural, not dependency-heavy.
+
+### Follow-up
+Keep the canonical explanation in `workflows/webchat-side-session.md` and only wrap it in scripts or bundles as a secondary convenience layer.
